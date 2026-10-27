@@ -1,0 +1,22 @@
+
+# Executáveis e objetos
+cchat-server
+*.o
+*.out
+
+# Configurações locais
+.env
+.env.*
+!.env.example
+
+# Chaves e certificados privados
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Editor e sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
